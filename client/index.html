@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <a href="#/">Home | <a ng-click='logout()'href="#">Logout</a>
+    <div ng-app='myApp'>
+        <div ng-view="">
+        </div>
+    </div>
+  </body>
+</html>
